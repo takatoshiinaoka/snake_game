@@ -4,7 +4,7 @@ const size = 30;
 
 function setup() {
   createCanvas(600, 600);
-  frameRate(5);
+  frameRate(3);
   snake = new Snake();
   fruit = new Fruit();
 }
